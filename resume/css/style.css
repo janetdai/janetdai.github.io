@@ -1,0 +1,125 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Garamond;
+    letter-spacing: 1px;
+    background-color: rgb(232, 233, 232);
+}
+
+h1 {
+    font-size: 44px;
+    color: black;
+}
+
+h2 {
+    font-size: 36px;
+    color: black;
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(55, 55, 55);
+}
+
+p {
+    font-size: 14px;
+    color: rgb(124, 124, 124);
+}
+
+header {
+    padding-left: 10px;
+    height: 65px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+}
+
+.logo {
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nav {
+    padding: 23px 20px 20px 10px;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+}
+
+.nav li {
+    list-style: none;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+
+
+/** index page **/
+
+.kvimg {
+    width: 50%;
+    float: left;
+}
+
+.kvword {
+    width: 50%;
+    float: left;
+    vertical-align: bottom;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+
+/** about me page **/
+
+.portfolio {
+    padding: 20px 60px;
+}
+
+.portfolio li {
+    padding-top: 8px;
+    color: rgb(124, 124, 124);
+}
+
+
+/** project page **/
+
+.pro_row {
+    width: 33%;
+    padding: 20px;
+    float: left;
+}
+
+.pro_pic {
+    background-color: rgb(255, 255, 255);
+}
+
+.pro_pic > img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.pro_name > p {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    min-height: 48px;
+}
+
+footer {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 14px;
+    height: 40px;
+    clear: both;
+}
